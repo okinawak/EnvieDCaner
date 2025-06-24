@@ -1,0 +1,307 @@
+/* Rating Summary Compact */
+.rating-summary.compact {
+  margin: 0.5rem 0;
+}
+
+.rating-summary.compact .stars svg {
+  width: 12px;
+  height: 12px;
+}
+
+/* Game card improvements */
+.featured-game-info p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.game-info .rating-summary {
+  margin: 0.25rem 0;
+}
+
+/* User section styles */
+.user-section {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 20px;
+  border: 1px solid #e9ecef;
+}
+
+.user-section h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.user-section p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Comments Section Styles */
+.comments-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.comments-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #0078d7;
+  padding-bottom: 0.5rem;
+}
+
+.rating-summary {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.average-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.average-rating span:first-child {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0078d7;
+}
+
+.average-rating .stars {
+  display: flex;
+  gap: 2px;
+}
+
+.add-comment-form {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border: 1px solid #e9ecef;
+}
+
+.add-comment-form h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.add-comment-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #495057;
+}
+
+.add-comment-form textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  resize: vertical;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  transition: border-color 0.2s ease;
+}
+
+.add-comment-form textarea:focus {
+  outline: none;
+  border-color: #0078d7;
+  box-shadow: 0 0 0 2px rgba(0, 120, 215, 0.2);
+}
+
+.add-comment-form button[type="submit"] {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.add-comment-form button[type="submit"]:hover {
+  background-color: #106ebe;
+}
+
+.comments-list {
+  margin-top: 1.5rem;
+}
+
+.comment-item {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.comment-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.comment-header strong {
+  color: #0078d7;
+  font-size: 1rem;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.comment-actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.comment-actions button:hover {
+  background-color: #f8f9fa;
+}
+
+.comment-content {
+  margin-top: 0.75rem;
+}
+
+.comment-content p {
+  margin: 0;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.comment-content textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  resize: vertical;
+  min-height: 100px;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+}
+
+.stars svg {
+  transition: all 0.2s ease;
+}
+
+.stars svg:hover {
+  transform: scale(1.1);
+}
+
+/* Actions des commentaires en édition */
+.comment-actions .save-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.comment-actions .save-btn:hover {
+  background-color: #218838;
+}
+
+.comment-actions .cancel-btn {
+  background-color: #6c757d;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.comment-actions .cancel-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Message quand il n'y a pas de commentaires */
+.no-comments {
+  text-align: center;
+  color: #6c757d;
+  padding: 3rem 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px dashed #dee2e6;
+}
+
+.no-comments p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .rating-summary {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .comment-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .comment-actions {
+    align-self: flex-end;
+  }
+  
+  .add-comment-form {
+    padding: 1rem;
+  }
+  
+  .comment-item {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .comments-section {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  
+  .add-comment-form,
+  .comment-item {
+    border-radius: 4px;
+  }
+  
+  .rating-summary {
+    padding: 0.75rem;
+  }
+}
